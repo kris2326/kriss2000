@@ -1,0 +1,72 @@
+<IDOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,intial-scale=1.0">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    <header>
+    <h1>Интернет-магазин</h1>
+    <nav>
+    <a href="#home">Главная</a>
+    <a href="#products">Продукты</a>
+    <a href="#cart">Корзина</a>
+    </nav>
+    </header>
+    <section id="products">
+    <h2>Продукты</h2>
+    <div class="product"data-id="1" data-price="500">
+    <h3>Продукт 1 </h3>
+    <p>Цена: 500₽</p>
+    <button onclick="addToCart(1)">Добавить в корзину</button>
+    </div>
+    <div class="product"data-id="2" data-price="750">
+    <h3>Продукт 2</h3>
+    <p>Цена: 750₽</p>
+    <button onclick="addToCart(2)">Добавить в корзину</button>
+    </div>
+    </section>
+    <div>
+        <img src="3bba775429a2645db625a159fb47177e.jpg" alt="Блузка" style="width:200px;">
+        <p>Стильная блузка - 1800 ₽</p>
+    </div>
+    <div>
+        <img src="715t2BOewHS.jpg" alt="Юбка" style="width:200px;">
+        <p>Юбка-мини - 2200 ₽</p>
+    </div>
+    <img src="61uVyuNCUuL._AC_SL1500_.jpg" alt="Штаны" style="width:200px;">
+        <p>Бежевые штаны - 1800 ₽</p>
+        <div>
+     <img src="61WcTzS21xL._AC_UY580_.jpg" alt="Платье" style="width:200px;">
+            <p>Платье - 2200 ₽</p> 
+        </div>
+        <div>
+            <img src="71SeAXq-h1L.jpg" alt="Джинсы" style="width:200px;">
+            <p>Джинсы - 1800 ₽</p>
+        </div>   
+        <div>
+            <img src="65564d4e2c4e15509810f25b-cdress-women-39-s-short-homecoming.jpg" alt="Платье" style="width:200px;">
+            <p>Платье - 1800 ₽</p>
+        </div> 
+        <div>
+            <img src="65564d4e2c4e15509810f25b-cdress-women-39-s-short-homecoming.jpg" alt="Платье" style="width:200px;">
+            <p>Платье - 1800 ₽</p>
+        </div> 
+        <div>
+            <img src="s-l1200.jpg" alt="Туфли винного цвета" style="width:200px;">
+            <p>Туфли винного цвета - 1800 ₽</p>
+        </div> 
+        <div>
+            <img src="Vestido-elegante-de-tul-manga-larga-rosa-7-350x466.jpg" alt="Розовое платье с длинным рукавом" style="width:200px;">
+            <p>Розовое платье с длинным рукавом - 1800 ₽</p>
+        </div>
+        <div>
+            <img src="Vestidos-Para-Mujer-30170993-30199_1.jpg" alt="Пляжное платье" style="width:200px;">
+            <p>Пляжное платье - 1800 ₽</p>
+        </div>
+        <div>
+            <img src="Zapato-tacon-para-mujer-color-rojo.-.jpg" alt="Красные туфли" style="width:200px;">
+            <p>Красные туфли - 1800 ₽</p>
+        </div>
